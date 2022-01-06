@@ -1,0 +1,32 @@
+.aquriam-image {
+  -webkit-filter: brightness(90%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.aquriam-image:hover {
+  -webkit-filter: brightness(30%);
+}
+
+/* -----------------
+    media query
+--------------- */
+
+@media only screen and (max-width: 1200px) {
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    margin-bottom: 10px;
+  }
+  .about-text {
+    padding: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .about-text p {
+    width: 100% !important;
+  }
+}

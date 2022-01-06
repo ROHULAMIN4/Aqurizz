@@ -1,0 +1,77 @@
+.main-article {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.main-article h1 {
+  padding-top: 70px;
+  text-align: center;
+  color: #06175c;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 80px;
+}
+.main-article img {
+  width: 100%;
+}
+.main-article h3 {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.main-article p {
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  color: rgb(37, 36, 36);
+}
+.main-article h3:hover {
+  color: rgb(246, 43, 7);
+  font-weight: 700;
+  transition: 0.2s;
+}
+.blog {
+  color: yellow;
+}
+.main-article a {
+  margin-left: 35%;
+  text-decoration: none;
+  border: none;
+}
+.articleButton {
+  background-color: cyan;
+  border: 1px solid cyan;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+.articleButton:hover {
+  background-color: tomato;
+  color: white;
+  transition: 0.5s;
+  border: 1px solid red;
+}
+.icon {
+  color: white;
+  background-color: tomato;
+  padding: 20px;
+  border-radius: 50%;
+}
+.icon:hover {
+  background-color: cyan;
+}
+
+.hover-block {
+  position: relative;
+}
+.hover-effect {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.main-article:hover .hover-effect {
+  display: block;
+  transition: all 0.5s;
+}

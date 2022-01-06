@@ -1,0 +1,57 @@
+.card-Style {
+  /* border: 1px solid tomato; */
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.card-Style:hover {
+  box-shadow: 10px 10px 20px gray, -10px -10px 20px gray;
+}
+.card-titile {
+  color: tomato;
+}
+.transition-img {
+  background-color: rgba(15, 15, 15, 0.561);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s;
+}
+.transition-img h4,
+p {
+  color: white;
+}
+.card-Style:hover .transition-img {
+  top: 0;
+}
+.svg-style {
+  padding-top: 20px;
+  color: rgba(5, 5, 5, 0.842);
+  font-family: "Dancing Script", cursive;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.svg-style:hover {
+  color: rgb(57, 85, 131);
+}
+.price {
+  display: flex;
+  justify-content: space-around;
+}
+.product-head-demo {
+  padding-top: 100px;
+  text-align: center;
+  color: #06175c;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 80px;
+}

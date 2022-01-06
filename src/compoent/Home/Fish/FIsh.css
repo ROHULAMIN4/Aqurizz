@@ -1,0 +1,63 @@
+.service-icon {
+  height: 96px;
+  width: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  transition: 0.5s;
+  border-radius: 50%;
+  color: whitesmoke;
+  margin-top: 50px;
+  background-color: #00c3ed;
+}
+
+.service {
+}
+
+.service:hover .service-icon {
+  background-color: #06175c;
+  color: #00c3ed;
+}
+
+.service h6:hover h6 {
+  color: #00c3ed;
+  transition: 0.5s;
+}
+
+.header-text {
+  color: red;
+}
+
+/*------------------
+ media query
+ --------------*/
+@media only screen and (max-width: 1200px) {
+  .banner-section img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0 !important;
+  }
+
+  .banner-section br {
+    display: none !important;
+  }
+
+  .aquarium-text {
+    margin-left: 0 !important;
+  }
+  .banner-section p {
+    width: 100% !important;
+  }
+  .aquarium-maintaince-banner {
+    margin-left: 0 !important;
+  }
+  .aquarium-maintaince-banner article {
+    margin-left: 0 !important;
+  }
+  /* fish */
+  .fish-container {
+    margin-top: -0px !important;
+    margin-left: 0px !important;
+  }
+}

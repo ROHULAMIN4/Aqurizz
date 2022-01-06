@@ -1,0 +1,33 @@
+.sidebar {
+  background-color: #00c49f;
+  padding: 0 10px;
+  padding-top: 30px;
+  color: black;
+}
+.sidebar ul {
+  list-style: none;
+  margin-top: 40px;
+}
+.sidebar ul li {
+  text-align: left;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.sidebar ul li:hover {
+  background-color: rgb(39, 39, 224);
+  color: white;
+  padding: 0px 10px;
+}
+.dashboard-header {
+  background-color: gray;
+  margin-bottom: 0;
+  color: white;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 600px) {
+  .sidebar {
+    height: 100%;
+  }
+}

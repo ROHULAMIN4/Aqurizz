@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+  .order-card {
+    flex-direction: column;
+  }
+}
+/* #order-img {
+  width: 80px;
+}
+.main-order {
+  display: flex;
+} */

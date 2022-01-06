@@ -1,0 +1,27 @@
+.Banner {
+  width: 100vw;
+  height: 100vh;
+}
+.cover-banner h3 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+}
+.cover-banner p {
+  color: rgb(230, 221, 221);
+}
+@media only screen and (max-width: 600px) {
+  .Banner {
+    width: 100vw;
+    height: 70vh;
+  }
+  .cover-banner h3 {
+    font-size: 16px;
+  }
+  .cover-banner p {
+    font-size: 10px;
+  }
+}

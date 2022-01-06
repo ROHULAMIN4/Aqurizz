@@ -1,0 +1,10 @@
+.bar-chart {
+  background-color: #ffffff;
+  padding: 10px 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .bar-chart {
+    width: 100%;
+  }
+}
